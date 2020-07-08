@@ -4,7 +4,7 @@
 Run git clone to download proyect
 
 ```ruby
-git clone https://github.com/luisMan97/HackerNewsColegium.git
+git clone https://github.com/luisMan97/CountriesMap-iOS.git
 ```
 
 #### Third Party Libraries
