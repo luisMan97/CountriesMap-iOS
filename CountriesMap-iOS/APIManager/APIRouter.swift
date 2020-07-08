@@ -40,9 +40,7 @@ enum APIRouter {
         
         switch self {
             case .Countries:
-                //urlRequest.setValue("restcountries-v1.p.rapidapi.com", forHTTPHeaderField: "x-rapidapi-host")
                 urlRequest.setValue("97c89c5cb5mshc73d0c89c3c72d8p12b0d4jsn0aac3b88c286", forHTTPHeaderField: "x-rapidapi-key")
-                //urlRequest.setValue("true", forHTTPHeaderField: "useQueryString")
             return urlRequest
         }
     }
