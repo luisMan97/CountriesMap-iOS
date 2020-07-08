@@ -15,16 +15,8 @@ class CountriesViewModel: ObservableObject {
     private var repository: CountriesRepository
     
     // Input
-    @Published var searchText = "" {
-        didSet {
-            print(searchText)
-        }
-    }
-    @Published var showCancelButton: Bool = false {
-        didSet {
-            print(showCancelButton)
-        }
-    }
+    @Published var searchText = "" 
+    @Published var showCancelButton: Bool = false 
     
     // Output Events
     @Published var showProgress = false
